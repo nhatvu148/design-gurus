@@ -1,3 +1,4 @@
+/// <reference no-default-lib="true"/>
 class Solution {
   containsDuplicate(nums) {
     const uniqueSet = new Set(); // Use Set to store unique elements
