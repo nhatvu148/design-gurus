@@ -20,15 +20,15 @@ class Solution {
     return seen.size === 26;
   }
 
-  // checkIfPangram(sentence: string): boolean {
-  //     const occurrences = this.countLetterOccurrences(sentence);
-  //     // console.log(occurrences);
-  //     // console.log(
-  //     //     "Are all letter counts greater than 0?",
-  //     //     this.areAllValuesGreaterThan(occurrences, 0)
-  //     // );
-  //     return this.areAllValuesGreaterThan(occurrences, 0);
-  // }
+  checkIfPangram2(sentence: string): boolean {
+      const occurrences = this.countLetterOccurrences(sentence);
+      // console.log(occurrences);
+      // console.log(
+      //     "Are all letter counts greater than 0?",
+      //     this.areAllValuesGreaterThan(occurrences, 0)
+      // );
+      return this.areAllValuesGreaterThan(occurrences, 0);
+  }
 
   private createAlphabetMap(): Record<string, number> {
     const alphabet = "abcdefghijklmnopqrstuvwxyz";

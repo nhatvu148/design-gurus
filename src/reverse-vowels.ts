@@ -1,6 +1,34 @@
 /// <reference no-default-lib="true"/>
 class Solution {
+  vowels = "aeiouAEIOU";
+
   reverseVowels(s) {
+    // initialize pointers for start and end of the string
+    let first = 0;
+    let last = s.length - 1;
+    let array = s.split("");
+
+    while (first < last) {
+      // increment the start pointer until a vowel is found
+      while (first < last && this.vowels.indexOf(array[first]) === -1) {
+        first++;
+      }
+      // decrement the end pointer until a vowel is found
+      while (first < last && this.vowels.indexOf(array[last]) === -1) {
+        last--;
+      }
+      // swap the values of first and last if both are vowels
+      [array[first], array[last]] = [array[last], array[first]];
+      // move the pointers towards the center
+      first++;
+      last--;
+    }
+
+    // return the modified string
+    return array.join("");
+  }
+
+  reverseVowels2(s) {
     const vowelList = [];
     const chars = s.split("");
     for (let i = 0; i < chars.length; i++) {
