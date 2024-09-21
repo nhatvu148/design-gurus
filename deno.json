@@ -1,6 +1,11 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch main.ts",
+    "pangram": "deno run src/pangram.ts",
+    "duplicates": "deno run src/duplicates.ts",
+    "palindrome": "deno run src/palindrome.ts",
+    "reverse-vowels": "deno run src/reverse-vowels.ts",
+    "anagram": "deno run src/anagram.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
