@@ -1,6 +1,6 @@
 ## Commands Overview
 
-These are useful commands for working with different runtimes (Bun, Node.js, and Deno) and managing Deno's caching, modules, and directories.
+These are useful commands for working with different runtimes (Node.js, and Deno) and managing Deno's caching, modules, and directories.
 
 1. **Benchmark runtimes:**
 
