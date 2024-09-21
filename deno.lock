@@ -1,0 +1,32 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@lukeed/fetch-event-stream@~0.1.5": "0.1.5",
+    "jsr:@std/streams@0.221": "0.221.0"
+  },
+  "jsr": {
+    "@lukeed/fetch-event-stream@0.1.5": {
+      "integrity": "50fe145b95e6ead49584c4f00dbb266c34a572e2ac97a924463f567887cd99ce",
+      "dependencies": [
+        "jsr:@std/streams"
+      ]
+    },
+    "@mumulhl/duckduckgo-ai-chat@3.0.0": {
+      "integrity": "855cc7377df15133e767d0b1aa055b6d8e16251fa3c3d8a4083edf2f722d4697",
+      "dependencies": [
+        "jsr:@lukeed/fetch-event-stream"
+      ]
+    },
+    "@std/streams@0.221.0": {
+      "integrity": "47f2f74634b47449277c0ee79fe878da4424b66bd8975c032e3afdca88986e61"
+    }
+  },
+  "remote": {
+    "https://docs.deno.com/examples/hello-world.ts": "d63272f902dd20acc3c5cdaedf4b35113900c6a2915168e18c34e10ea6e05d94"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1"
+    ]
+  }
+}
