@@ -1,5 +1,6 @@
 import "https://docs.deno.com/examples/hello-world.ts";
 import { initChat } from "./deps.ts";
+import chalk from "chalk";
 
 export function add(a: number, b: number): number {
   return a + b;
@@ -9,6 +10,8 @@ export function add(a: number, b: number): number {
 if (import.meta.main) {
   console.log("Add 2 + 3 =", add(2, 3));
   // console.log(Deno.args);
+
+  console.log(chalk.red("Hello world"));
 }
 
 // // Initialize, optional models are gpt-4o-mini, claude-3-haiku-20240307, meta-llama/Llama-3-70b-chat-hf, mistralai/Mixtral-8x7B-Instruct-v0.1
