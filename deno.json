@@ -4,6 +4,7 @@
     "pangram": "deno run src/pangram.ts",
     "duplicates": "deno run src/duplicates.ts",
     "palindrome": "deno run src/palindrome.ts",
+    "shortest-distance": "deno run src/shortest-distance.ts",
     "reverse-vowels": "deno run src/reverse-vowels.ts",
     "anagram": "deno run src/anagram.ts"
   },
