@@ -6,6 +6,7 @@
     "palindrome": "deno run src/palindrome.ts",
     "shortest-distance": "deno run src/shortest-distance.ts",
     "good-pairs": "deno run src/good-pairs.ts",
+    "square-root": "deno run src/square-root.ts",
     "reverse-vowels": "deno run src/reverse-vowels.ts",
     "anagram": "deno run src/anagram.ts"
   },
