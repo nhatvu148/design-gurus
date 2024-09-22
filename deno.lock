@@ -4,7 +4,8 @@
     "jsr:@lukeed/fetch-event-stream@~0.1.5": "0.1.5",
     "jsr:@mumulhl/duckduckgo-ai-chat@3.0.0": "3.0.0",
     "jsr:@std/streams@0.221": "0.221.0",
-    "npm:chalk@5": "5.3.0"
+    "npm:chalk@5": "5.3.0",
+    "npm:nodejs-polars@*": "0.15.0"
   },
   "jsr": {
     "@lukeed/fetch-event-stream@0.1.5": {
@@ -26,9 +27,56 @@
   "npm": {
     "chalk@5.3.0": {
       "integrity": "sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w=="
+    },
+    "nodejs-polars-android-arm64@0.15.0": {
+      "integrity": "sha512-sIuAVgM3SjNxQ0njaN/jF5+WuUKdlZiTY1W3s8OB65D3AEphZVmIfy+uM+dShTrLOxvRkaFLDTy2dB/T60ISbA=="
+    },
+    "nodejs-polars-darwin-arm64@0.15.0": {
+      "integrity": "sha512-/Gm6nLg/0mzbgFZqH18UwNxGXFnZrfYst6HLbG+tDhUNfNAOVVUr/hDzYXm6me0h4CsL3LrN//6L5Jn0stxseA=="
+    },
+    "nodejs-polars-darwin-x64@0.15.0": {
+      "integrity": "sha512-bkij++fSLUsblvxPiGUNLUbpbuPWsneJzKM9iqCB2CaTBvNWZ/Qzocqm7biwoyHFw3w1IonH2CnvhNYgjxRSsg=="
+    },
+    "nodejs-polars-linux-arm64-gnu@0.15.0": {
+      "integrity": "sha512-DOZpaFd9kL8F+ZM8751Jg2fyF3h3+Rb0NDYSatlDApZA6J1KzEnM9ZECiuBwMhq42D2Ii4IdSylg202mfVvWZA=="
+    },
+    "nodejs-polars-linux-arm64-musl@0.15.0": {
+      "integrity": "sha512-fg/2Wo1rCH53kk260iJvqdxTSW9q++Zh3Q6Vu7q4RX2AAr4nS08yMO90JHbnhsYeeunnzzvhC8K/fjEOBsDpsA=="
+    },
+    "nodejs-polars-linux-x64-gnu@0.15.0": {
+      "integrity": "sha512-FF0VyJAZoqpthHoCOnCVN5dYHEXimvi06dpjNHifsFBEAS1tI6GMBDT1JAM0HKlpKtPrqJwH1Tbsr58EXqia/w=="
+    },
+    "nodejs-polars-linux-x64-musl@0.15.0": {
+      "integrity": "sha512-rjCNTzK+g+JHNBbT6pzfEoZyyCPkMEo8kcCp3M//rwPLAQijvKt8JfyoP7k2ovsOZHHKw28OZ3Sw308ufX+b/A=="
+    },
+    "nodejs-polars-win32-x64-msvc@0.15.0": {
+      "integrity": "sha512-N9Sxke9tqb0BGe/iSleKLbgdF3V6lrcytmLP0x+8SGAkXQT/opj1Ubd41bi0o4Put9yIp+veWiG+hcnhG16S3Q=="
+    },
+    "nodejs-polars@0.15.0": {
+      "integrity": "sha512-qlwPGxR3Jh/N1IMXWgQP1JAHDSXTFg7b3iE7Jiw3sX6wnOnPcDCcPXmcT3KB2uH5vGBrK3W+xQQPqL9YePrvMQ==",
+      "dependencies": [
+        "nodejs-polars-android-arm64",
+        "nodejs-polars-darwin-arm64",
+        "nodejs-polars-darwin-x64",
+        "nodejs-polars-linux-arm64-gnu",
+        "nodejs-polars-linux-arm64-musl",
+        "nodejs-polars-linux-x64-gnu",
+        "nodejs-polars-linux-x64-musl",
+        "nodejs-polars-win32-x64-msvc"
+      ]
     }
   },
+  "redirects": {
+    "https://deno.land/std/html/mod.ts": "https://deno.land/std@0.224.0/html/mod.ts",
+    "https://deno.land/x/display/mod.ts": "https://deno.land/x/display@v1.1.2/mod.ts"
+  },
   "remote": {
+    "https://deno.land/std@0.224.0/html/entities.ts": "fd5ac9d459355a377baea118f4e808a1268808fd9138b319c90f11024e2f1718",
+    "https://deno.land/std@0.224.0/html/mod.ts": "047624f883874f4b9781da872f9579a615fb5418af30663c9ce0c65074ace87f",
+    "https://deno.land/x/display@v0.1.1/format.ts": "d9a14a0db30e7ef0dc294f7d3f211cc1acacdd74ff14dddd9afe1528159bcfde",
+    "https://deno.land/x/display@v0.1.1/mod.ts": "f5ba8ee82ca1ae248e9768a3430c6de944fec27dd96b8103e4829dd66c21ea31",
+    "https://deno.land/x/display@v1.1.2/format.ts": "1ba3b8c5c1afdae558095479254f2dcef84d8fcd24464ebdd44f65d99e0b0b9e",
+    "https://deno.land/x/display@v1.1.2/mod.ts": "077bedee868852e0f220763d6781d8bcc077f68f0e3269a60e02e93a42c54b70",
     "https://docs.deno.com/examples/hello-world.ts": "d63272f902dd20acc3c5cdaedf4b35113900c6a2915168e18c34e10ea6e05d94"
   },
   "workspace": {

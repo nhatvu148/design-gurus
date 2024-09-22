@@ -67,14 +67,22 @@ These are useful commands for working with different runtimes (Node.js, and Deno
    Adds a specific JavaScript or TypeScript module, using Deno's built-in package management capabilities (the full path should replace the `jsr/......` part).
 
 9. **Use custom Deno cache directory in commands:**
+
    ```bash
    $DENO_DIR
    DENO_DIR=./deno_dir/ deno main.ts
    ```
+
    The first command shows the current value of `DENO_DIR`, and the second command runs the `main.ts` file using the `deno_dir` as the custom cache directory.
+
+10. **To install Deno Jupyter, run the following command:**
+
+```bash
+deno jupyter --unstable --install
 
 ## References
 
 - **[JSR Standard Library](https://jsr.io/@std)**: An evolving JavaScript/TypeScript standard library repository.
 - **[Deno Third-Party Modules](https://deno.land/x)**: Official repository for third-party Deno modules.
 - **[Deno Documentation](https://docs.deno.com/runtime/fundamentals/typescript/)**: Deno documentation on TypeScript support and runtime fundamentals.
+```
