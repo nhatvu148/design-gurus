@@ -79,10 +79,10 @@ These are useful commands for working with different runtimes (Node.js, and Deno
 
 ```bash
 deno jupyter --unstable --install
+```
 
 ## References
 
 - **[JSR Standard Library](https://jsr.io/@std)**: An evolving JavaScript/TypeScript standard library repository.
 - **[Deno Third-Party Modules](https://deno.land/x)**: Official repository for third-party Deno modules.
 - **[Deno Documentation](https://docs.deno.com/runtime/fundamentals/typescript/)**: Deno documentation on TypeScript support and runtime fundamentals.
-```
