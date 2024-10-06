@@ -81,6 +81,13 @@ These are useful commands for working with different runtimes (Node.js, and Deno
 deno jupyter --unstable --install
 ```
 
+11. **Upgrade to Deno 2.0 Release Candidate:**
+
+```bash
+deno upgrade
+deno upgrade rc
+```
+
 ## References
 
 - **[JSR Standard Library](https://jsr.io/@std)**: An evolving JavaScript/TypeScript standard library repository.
